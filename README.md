@@ -21,7 +21,6 @@
 -   [Getting Started](#getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Installation](#installation)
-    -   [How to use](#how-to-use)
 -   [Components](#components)
     -   [Cases Panel](#cases-panel)
     -   [Flag List](#flag-list)
@@ -33,6 +32,24 @@
 ### About the Project
 
 This project was created using [React](https://reactjs.org/) and uses the [COVID19 Public API](https://covid19api.com/) to monitor Covid 19 cases worldwide or by country
+
+Main features:
+
+* World Total Cases
+
+  _The App show total amount of confirmed, recovered and the total of deaths caused by COVID19._
+  
+* Cases By Country
+
+  _The user is able to search for country specific data. This can be done either with a dropdown or with a standard text input. This shown the current count of confirmed, recovered and the total of deaths caused by COVID19 in that country._
+  
+* Cases By Country On a Specific Date
+
+  _The user is able to select a specific date period for the desired country's data._
+  
+  * List Cases of a Country from a time period
+
+    _If the user selects a time period bigger than a day, then the page list the data for COVID19 cases for each day from the selected time period._
 
 ### Technologies
 
@@ -61,7 +78,7 @@ git clone https://github.com/LucasMeloMB/covid19-react.git
 Install the Packages
 
 ```bash
-npm install
+yarn install
 ```
 
 Open the Project
@@ -73,7 +90,7 @@ cd covid19-react
 Init the project
 
 ```bash
-npm start
+yarn start
 ```
 
 Access app in the browser
@@ -91,7 +108,7 @@ These are the main components of this app.
 This component shows total covid cases, total recovered and total deaths by country or globally.
 ![Cases-Panel](src/assets/readme/cases-panel.png)
 
-### Flags List
+### Flag List
 
 This component brings the list of all countries brought by the API along with their flags. By clicking on the country the user is redirected to the country information page.
 ![Flags-List](src/assets/readme/flag-list.png)
