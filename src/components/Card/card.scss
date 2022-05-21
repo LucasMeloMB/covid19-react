@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  min-height: 7.5rem;
+  min-width: 6.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 2px solid gray;
+  box-shadow: 0 0 2em #e5e4e4;
+  font-family: "Poppins", sans-serif;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardText {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-bottom: 0.65rem;
+}
+
+.bigNumber {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #0070ba;
+  padding-bottom: 0.65rem;
+  line-height: 2.5rem;
+}
+
+.smallNumber {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fa9234;
+  padding: 0 0.65rem;
+}
+
+.smallNumberWrapper {
+  font-size: 1.25rem;
+  justify-items: center;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0 0.65rem;
+}

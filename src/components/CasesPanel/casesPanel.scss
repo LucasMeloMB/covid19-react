@@ -1,0 +1,32 @@
+.update {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #29292e;
+  margin: 0.25rem 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .list {
+    flex-direction: column;
+  }
+  .update {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #29292e;
+    margin: 1rem;
+  }
+}

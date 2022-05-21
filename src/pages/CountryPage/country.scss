@@ -1,0 +1,43 @@
+.country {
+  display: flex;
+  flex-direction: row;
+  padding: 1.75rem;
+  width: 100%;
+  gap: 2rem;
+
+  .cards {
+    width: 25%;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+}
+
+@media (max-width: 960px) {
+  .country {
+    .cards {
+      width: 30%;
+    }
+    .body {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .country {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    padding-top: 1px;
+
+    .cards {
+      width: 100%;
+    }
+    .body {
+      width: 100%;
+    }
+  }
+}
