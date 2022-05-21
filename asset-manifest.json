@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/covid19-react/static/css/main.f458c702.css",
-    "main.js": "/covid19-react/static/js/main.fd85fe16.js",
+    "main.js": "/covid19-react/static/js/main.0a7732cc.js",
     "static/js/498.7d06ffd2.chunk.js": "/covid19-react/static/js/498.7d06ffd2.chunk.js",
     "static/js/703.fcc44406.chunk.js": "/covid19-react/static/js/703.fcc44406.chunk.js",
     "static/js/478.7a4ff108.chunk.js": "/covid19-react/static/js/478.7a4ff108.chunk.js",
     "static/media/planet-icon.png": "/covid19-react/static/media/planet-icon.a9ee96e7bb3670e31bd4.png",
     "index.html": "/covid19-react/index.html",
     "main.f458c702.css.map": "/covid19-react/static/css/main.f458c702.css.map",
-    "main.fd85fe16.js.map": "/covid19-react/static/js/main.fd85fe16.js.map",
+    "main.0a7732cc.js.map": "/covid19-react/static/js/main.0a7732cc.js.map",
     "498.7d06ffd2.chunk.js.map": "/covid19-react/static/js/498.7d06ffd2.chunk.js.map",
     "703.fcc44406.chunk.js.map": "/covid19-react/static/js/703.fcc44406.chunk.js.map",
     "478.7a4ff108.chunk.js.map": "/covid19-react/static/js/478.7a4ff108.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f458c702.css",
-    "static/js/main.fd85fe16.js"
+    "static/js/main.0a7732cc.js"
   ]
 }
